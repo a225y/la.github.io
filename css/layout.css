@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	margin: 0;
+	width: 100%;
+	min-width: 100%;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	background: #FFF;
+	}
+
+h1, h2, h3, h4, h5, h6{ font-weight: normal; }
+
+p img { float: left; margin: 0 10px 5px 0; padding: 0; }
+
+img { border: 0; max-width: 100%; }
+
+
+/****************我是分隔線*****************/
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.openbtn {
+	color:#928F8F;
+	cursor: pointer;
+	font-size: 30px;
+	position: absolute;
+	top: 5px;
+	left: 85%;
+	}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+/****************我是分隔線*****************/
+
+
+
+	
+/****************我是分隔線*****************/
+
+#home {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	}
+
+
+
+
+
+
+
+
+
