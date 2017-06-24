@@ -11,6 +11,8 @@ body{
 	background: #FFF;
 	}
 
+.main{ margin-top: 20%;}	
+
 h1, h2, h3, h4, h5, h6{ font-weight: normal; }
 
 p img { float: left; margin: 0 10px 5px 0; padding: 0; }
@@ -79,21 +81,38 @@ img { border: 0; max-width: 100%; }
   }
 }
 
-/****************我是分隔線*****************/
+/**************** HOME *****************/
+/*#home .button{
+	margin-top: 20%;
+	}*/
+/**************** HOME *****************/
 
 
 
-	
-/****************我是分隔線*****************/
 
-#home {
-	margin-top: 50px;
-	margin-bottom: 50px;
+/**************** Index結束*****************/
+
+
+
+/**************** LA.DownTown 開始*****************/
+.map-box{
+	background: #F1F1F1;
+	height: 150px;
+	margin-top: 5%;
+	-webkit-box-shadow: 0px 2px 15px #D2D2D2;
+	box-shadow: 0px 2px 15px #D2D2D2;
+	}
+.map-box span{
+	font-size:1.5em;
+	}
+.map-box a{
+	position: relative;
+	top: 70px;
+	left: 50px;
+	font-size: 1.2em;
 	}
 
-
-
-
+/**************** LA.DownTown 結束*****************/
 
 
 
