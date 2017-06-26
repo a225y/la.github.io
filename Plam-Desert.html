@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="tw">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>La 大進擊</title>
+<!------------CSS------------->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" media="screen and (max-width: 400px)" href="css/layout.css" />
+<link rel="stylesheet" href="css/layout.css">
+</head>
+
+<!------------我是分隔線------------->
+<!------------我是分隔線------------->
+<!------------我是分隔線------------->
+
+<body lang="zh-tw">
+
+<!------------logo & 導航列------------->
+<nav id="top" class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container-fluid">
+    	<div class="row">
+        
+<!------------LOGO------------->        
+        	<div class="navbar-header">
+    			<a class="navbar-brand" href="index.html">LOS ANGELEs</a>
+   			
+<!------------導航列------------->
+			<div id="myNav" class="overlay">
+            	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                	<a href="DownTown.html">LA.DownTown</a>
+                    <a href="San-Diego.html">San Diego</a>
+                    <a href="Plam-Desert.html">Plam Desert</a>
+                </div>
+            </div>
+            	<div class="openbtn">
+            		<span onClick="openNav()">&#9776;</span>
+            	</div>
+        	</div>
+		</div>	
+    </div>
+ </nav>
+<!------------HOME------------->
+<div id="home" class="san-diegp-home">
+	<div class="container-fluid">
+    	<div class="row">
+        	<div class="main col-md-offset-1 col-md-10 col-sm-12">
+<!------------tab分頁------------->               
+				<div class="tab">
+                	<ul class="nav nav-tabs">
+                    	<li class="active"><a data-toggle="tab" href="#point">景點</a></li>
+                        <li><a data-toggle="tab" href="#eat">吃胖</a></li>
+                        <li><a data-toggle="tab" href="#buy">連鎖超市</a></li>
+                    </ul> 
+                  </div>  
+<!------------tab分頁內容------------->
+				<div class="tab-content">
+                	<div id="point" class="tab-pane fade in active">
+                        <!------------------------->        
+                        <div class="map-box col-md-12 col-sm-12">
+                        	<p><img class="img-responsive" src="images/plam-deset-img/point/point1.jpg"><span>Salvation Mountain</span></p>
+                                <a href="https://goo.gl/maps/CwdT5c9rsqy">GO MAP</a>
+                        </div>
+                        <!------------------------->        
+                        <div class="map-box col-md-12 col-sm-12">
+                        	<p><img class="img-responsive" src="images/plam-deset-img/point/point2.jpg"><span>Joshua Tree National Park</span></p>
+                                <a href="https://goo.gl/maps/A17wnWjwWS32">GO MAP</a>
+                        </div>
+                        <!------------------------->        
+                        <div class="map-box col-md-12 col-sm-12">
+                        	<p><img class="img-responsive" src="images/plam-deset-img/point/point3.jpg"><span>Black Rock Canyon</span></p>
+                                <a href="https://goo.gl/maps/xxt5EZvg1JH2">GO MAP</a>
+                        </div>
+                        <!------------------------->        
+                        <div class="map-box col-md-12 col-sm-12">
+                        	<p><img class="img-responsive" src="images/plam-deset-img/point/point4.jpg"><span>Palm Springs Windmill</span></p>
+                                <a href="https://goo.gl/maps/vQERYmU8DbU2">GO MAP</a>
+                        </div>
+                        <!------------------------->        
+                        <div class="map-box col-md-12 col-sm-12">
+                        	<p><img class="img-responsive" src="images/plam-deset-img/point/point5.jpg"><span>Yucca Valley</span></p>
+                                <a href="https://goo.gl/maps/ZfaaPZ9KitT2">GO MAP</a>
+                        </div>        
+                    </div>
+                    
+                    <div id="eat" class="tab-pane fade">
+                    <!------------------------->        
+                        <div class="map-box col-md-12 col-sm-12">
+                        	<p><img class="img-responsive" src="images/plam-deset-img/eat/eat1.jpg"><span>Elmer's Restaurant</span></p>
+                                <a href="https://goo.gl/maps/azqTcnmcuhv">GO MAP</a>
+                    	</div>
+                        <div class="map-box col-md-12 col-sm-12">
+                        	<p><img class="img-responsive" src="images/plam-deset-img/eat/eat2.jpg"><span>Tyler's Burgers</span></p>
+                                <a href="https://goo.gl/maps/yTk1Awpn36R2">GO MAP</a>
+                    	</div>
+                        <div class="map-box col-md-12 col-sm-12">
+                        	<p><img class="img-responsive" src="images/plam-deset-img/eat/eat3.jpg"><span>Manhattan In the Desert</span></p>
+                                <a href="https://goo.gl/maps/uepPwahpFE72">GO MAP</a>
+                    	</div>
+                        <div class="map-box col-md-12 col-sm-12">
+                        	<p><img class="img-responsive" src="images/plam-deset-img/eat/eat4.jpg"><span>Spencer's Restaurant</span></p>
+                                <a href="https://goo.gl/maps/qxhjcWp94Km">GO MAP</a>
+                    	</div>
+                	</div>    
+                    
+                    <div id="buy" class="tab-pane fade">
+               			<!------------------------->        
+                        <div class="map-box col-md-12 col-sm-12">
+                        	<p><img class="img-responsive" src="images/san-diego-img/buy/buy1.jpg"><span>walmart</span></p>
+                                <a href="https://goo.gl/maps/RarnC91HETL2">GO MAP</a>
+                    	</div>
+                        <!------------------------->        
+                        <div class="map-box col-md-12 col-sm-12">
+                        	<p><img class="img-responsive" src="images/san-diego-img/buy/buy2.jpg"><span>Costco Wholesale</span></p>
+                                <a href="https://goo.gl/maps/sEmbYyhfrx62">GO MAP</a>
+                    	</div>
+                        <!------------------------->        
+                        <div class="map-box col-md-12 col-sm-12">
+                        	<p><img class="img-responsive" src="images/san-diego-img/buy/buy3.jpg"><span>Trader Joe's</span></p>
+                                <a href="https://goo.gl/maps/BrERCxFBGNH2">GO MAP</a>
+                    	</div>
+                        <!------------------------->        
+                        <div class="map-box col-md-12 col-sm-12">
+                        	<p><img class="img-responsive" src="images/san-diego-img/buy/buy4.jpg"><span>Target</span></p>
+                                <a href="https://goo.gl/maps/DSmDb1jHa222">GO MAP</a>
+                    	</div>
+                    </div>
+                                       
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+<!------------JS------------->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/layout.js"></script>
+<script type="text/javascript">
+function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+}
+function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+}
+</script>
+
+</html>
