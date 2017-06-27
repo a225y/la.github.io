@@ -19,6 +19,31 @@ p img { float: left; margin: 0 10px 5px 0; padding: 0; }
 
 img { border: 0; max-width: 100%; }
 
+/****************map-box共用*****************/
+
+.map-box{
+	background: #FAFAFA;
+	height: 160px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	-webkit-box-shadow: 0px 2px 15px #A0A0A0;
+	box-shadow: 0px 2px 15px #D2D2D2;
+	}
+.map-box img {
+	padding-top: 5px;
+	}	
+.map-box span{
+	font-size:1.5em;
+	}
+.map-box a{
+	position: relative;
+	top: 50px;
+	left: 50px;
+	font-size: 1.2em;
+	
+	}
+
+
 
 /****************我是分隔線*****************/
 .overlay {
@@ -81,40 +106,26 @@ img { border: 0; max-width: 100%; }
   }
 }
 
-/**************** HOME *****************/
-/*#home .button{
-	margin-top: 20%;
-	}*/
-/**************** HOME *****************/
 
 
 
+/**************** 主畫面 HOME *****************/
+.index-home {
+	background:url(../images/plam.jpg);
+	background-size: cover;
+	height: 768px;
+	}
+.button a{
+	margin-bottom: 5%;
+	}	
 
 /**************** Index結束*****************/
 
 
 
 /**************** LA.DownTown 開始*****************/
-
-.map-box{
-	background: #A0F6C4;
-	height: 160px;
-	margin-top: 5%;
-	-webkit-box-shadow: 0px 2px 15px #D2D2D2;
-	box-shadow: 0px 2px 15px #D2D2D2;
-	}
-.map-box img {
-	padding-top: 5px;
-	}	
-.map-box span{
-	font-size:1.5em;
-	}
-.map-box a{
-	position: relative;
-	top: 60px;
-	left: 50px;
-	font-size: 1.2em;
-	
+.downtown-home{
+	background: #383333;
 	}
 
 /**************** LA.DownTown 結束*****************/
