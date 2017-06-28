@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+		xmlns:gap   = "http://phonegap.com/ns/1.0"
+		id	    = "tw.moke.testing"
+		versionCode = "10" 
+		version     = "0.2.0" >
+ 
+	<name>美西啪啪走</name>
+ 
+	<description>
+		Google map navigation
+	</description>
+ 
+	<author href="https://a225y.github.io/la.github.io/" email="http://azy225y@gmail.com">
+	
+	</author>
+	
+	<icon src="icon.png"/>
+	
+ 
+	<!-- current version of PhoneGap -->
+	<preference name="phonegap-version" value="3.5.0" />
+	<!-- 設定畫面固定為水平(landscape)、垂直(portrait) -->
+	<preference name="orientation" value="portrait" />
+	<!-- 加入其它plugin設定 -->
+</widget>
